@@ -14,7 +14,7 @@ echo -e "\033[1m Gereed! \033[0m"
 
 echo
 cd antorcha
-mkdir db/shared
+md db/shared
 git checkout origin/maint -b maint
 git pull
 echo
